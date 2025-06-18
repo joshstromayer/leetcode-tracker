@@ -6,7 +6,7 @@ This repository is a simple and clean personal tracker for solving LeetCode prob
 - A folder for each day you solve problems in `swe/leetcode_progress/YYYY-MM-DD/`
 - A script that lets you input a problem number and paste your code once — it will be saved to both folders automatically.
 
------
+---
 
 🚀 Getting Started
 
@@ -18,7 +18,7 @@ Click the **Fork** button on GitHub to create your own copy.
 1. git clone https://github.com/YOUR_USERNAME/leetcode-tracker.git
 2. cd leetcode-tracker-template
 
------
+---
 
 ✅ Daily Workflow
 After solving a problem:
@@ -34,13 +34,13 @@ After solving a problem:
    1. git add .
    2. git commit -m "Solved problem 1234 – Two Sum"
    3. git push
-
------
+      
+---
 
 📝 Usage
 To log a new problem solution, run the script:
 
-"python swe/script.py"
+"python script.py"
 
 The script will:
 
@@ -50,20 +50,19 @@ The script will:
 - Automatically retrieve the problem title and slug
 - Save your solution to both:
 
-swe/leetcode/XXXX-title-slug.py
-swe/leetcode_progress/YYYY-MM-DD/XXXX-title-slug.py
+   - swe/leetcode/XXXX-title-slug.py
+   - swe/leetcode_progress/YYYY-MM-DD/XXXX-title-slug.py
 
-Example filename: swe/leetcode/0001-two-sum.py
+Example filename: leetcode/0001-two-sum.py
 
 📂 Folder Structure
-text
-swe/
+```
 ├── data.csv                    # Contains LeetCode problem metadata
 ├── leetcode/                   # All problems with empty templates or your solutions
 ├── leetcode_progress/          # Your dated solutions
 └── script.py                   # The main script to run
-
------
+```
+---
 
 💡 Features
 Automatically creates files for all problems in the LeetCode dataset
@@ -74,12 +73,12 @@ Clean structure for showcasing your GitHub activity and portfolio
 
 Zero manual file management once set up
 
------
+---
 
 🙌 Contributing
 This repo is designed for personal use, but improvements and pull requests are welcome if you'd like to extend its functionality.
 
------
+---
 
 🧠 Optional Enhancements (Coming Soon Ideas)
 Daily streak tracker
