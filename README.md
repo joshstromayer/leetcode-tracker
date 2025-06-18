@@ -15,8 +15,8 @@ Click the **Fork** button on GitHub to create your own copy.
 
 2. Clone Your Fork
 
-git clone https://github.com/YOUR_USERNAME/leetcode-tracker.git
-cd leetcode-tracker-template
+1. git clone https://github.com/YOUR_USERNAME/leetcode-tracker.git
+2. cd leetcode-tracker-template
 
 -----
 
@@ -31,9 +31,9 @@ After solving a problem:
 
 4. Commit and push:
 
-git add .
-git commit -m "Solved problem 1234 – Two Sum"
-git push
+   1. git add .
+   2. git commit -m "Solved problem 1234 – Two Sum"
+   3. git push
 
 -----
 
