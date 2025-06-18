@@ -1,4 +1,4 @@
-# � LeetCode Tracker Template
+# LeetCode Tracker
 
 This repository is a simple and clean personal tracker for solving LeetCode problems. It automatically generates:
 
