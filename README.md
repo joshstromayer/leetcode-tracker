@@ -2,8 +2,8 @@
 
 This repository is a simple and clean personal tracker for solving LeetCode problems. It automatically generates:
 
-- A folder for each LeetCode problem in `swe/leetcode/`
-- A folder for each day you solve problems in `swe/leetcode_progress/YYYY-MM-DD/`
+- A folder for each LeetCode problem in `leetcode/`
+- A folder for each day you solve problems in `leetcode_progress/YYYY-MM-DD/`
 - A script that lets you input a problem number and paste your code once — it will be saved to both folders automatically.
 
 ---
