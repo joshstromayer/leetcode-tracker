@@ -1,13 +1,15 @@
 import os
 import pandas as pd
 from datetime import date
+import sys
 
 df = pd.read_csv("data.csv")
 
 problem_title = df["title"]
 
 problem_number = input("Enter LeetCode problem number: ").zfill(4)
-solution_code = input("Paste your solution code below:\n")
+print("Paste your solution code below. Press Ctrl+D (or Ctrl+Z on Windows) when you're done:")
+solution_code = sys.stdin.read()
 
 leetcode_folder = "leetcode"
 progress_folder = "leetcode_progress"
