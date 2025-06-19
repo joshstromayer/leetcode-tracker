@@ -15,7 +15,7 @@ Click the **Fork** button on GitHub to create your own copy.
 
 2. Clone Your Fork
 
-1. git clone https://github.com/YOUR_USERNAME/leetcode-tracker.git
+1. git clone https://github.com/YOUR_USERNAME/leetcode-tracker-template.git
 2. cd leetcode-tracker-template
 
 ---
